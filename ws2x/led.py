@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import logging
 
-class LEDSim():
+class LEDSim:
     def __init__(self, length=144):
         self.length = length
         
@@ -10,7 +10,7 @@ class LEDSim():
         self._WARN_GENERAL_MSG = "Code invoked is from LED simulator"
         self.WS28X_LED = [(0,0,0) for i in range(length)]
         
-        logging.basicConfig('LED Simulator: %(message)s', logging=logging.WARNING)
+        logging.basicConfig(level=logging.WARNING)
         logging.warn(self._WARN_GENERAL_MSG)
 
     def __setitem__(self, index, value):
