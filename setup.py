@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ws2x-vjsrinivas", # Replace with your own username
-    version="0.0.2",
+    version="0.0.4",
     author="Vijay Rajagopal",
     author_email="vijaythinks@gmail.com",
     download_url = 'https://github.com/vjsrinivas/ws2x-strip/archive/0.0.1.tar.gz',

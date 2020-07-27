@@ -1,3 +1,5 @@
 dist
+build
 __pycache__
 ws2x_vjsrinivas.egg-info
+ws2x_vjsrinivas.egg-info/requires.txt
